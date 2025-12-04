@@ -7,7 +7,7 @@
 
 A complete, production-like Docker-based development stack for Laravel applications using **LiteSpeed Web Server**, **MariaDB**, and a custom **Ubuntu frontend container**.
 
-## ✨ Features
+## ✨ Functions
 
 - **High-Performance Stack**: LiteSpeed Web Server with LS PHP 8.1
 - **Laravel-Optimized**: Pre-configured for Laravel applications
@@ -252,30 +252,6 @@ docker compose up -d
 docker compose exec mariadb mysqldump -ularavel -plaravel laravel > backup.sql
 ```
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit changes
-4. Push to the branch
-5. Create a Pull Request
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🆘 Support
-
-For issues and questions:
-1. Check the logs: `docker compose logs`
-2. Verify volumes are correctly mounted
-3. Ensure ports are not in use by other services
-4. Check Docker resource allocation
-
----
-
-**Happy Coding!** 🚀 Built with ❤️ for the Laravel community.
-
----
-
-*This README is automatically generated from the docker-compose configuration. Last updated: $(date)*
